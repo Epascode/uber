@@ -1,0 +1,218 @@
+* {
+    font-family: Roboto;
+}
+
+
+header {
+    height: 50px;
+    background-color: #262626;
+}
+
+nav {
+    position: fixed;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; 
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 14px 70px;
+}
+
+.menu .menu-links {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #ffffff;
+}
+
+.menu .menu-items {
+    border-right: dotted 2px #000;
+    padding-right: 27px;
+}
+
+
+.promo-section {
+    height: 748px;
+    background: url('../imgs/imgs/upper-section-bg.jpg') center no-repeat;
+}
+
+.logo-section {
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper .call {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper .logo {
+    margin-top: 16px;
+    margin-left: 97px;
+}
+
+.logo-wrapper .logo-txt {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-wrapper .call .call-txt {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+    margin-right: 32px;
+
+}
+
+.logo-wrapper .call .call-txt span {
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.call button {
+    margin: 17px 95px 17px 0;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 3px rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #64aac5, #67caeb);
+    border-radius: 5px;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.promo .promo-header {
+    margin-top: 67px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 0.4;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo .promo-subheader {
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo .promo-txt {
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 955px;
+    height: 161px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+}
+
+.applicated {
+    margin: 0 auto;
+    margin-top: 118px;
+    display: block;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: solid 3px rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #64aac5, #8ce2fe);
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.reasons {
+    height: 900px;
+    padding-bottom: 65px;
+}
+
+.reasons .container {
+    padding: 0 43px 0 35px;
+}
+
+.reasons .row {
+    margin-bottom: 20px;
+}
+
+.advantages {
+    margin: 0 auto;
+    margin-top: 71px;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    line-height: 2.3;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.reasons h2 {
+    margin-bottom: 40px;
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.26;
+    text-align: center;
+    color: #272727;
+    text-transform: uppercase;
+}
+
+.col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6 .img-bg {
+    margin-right: 26px;
+    min-width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #64aac5;
+}
+
+.col-6 .reason-desc {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #252525;
+    width: 341px;
+}
+
+.col-6 .reason-desc span {
+    font-size: 17px;
+    font-weight: normal;
+    color: #64aac5;
+    line-height: 1.4;
+    text-align: justify;
+}
